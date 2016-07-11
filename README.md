@@ -20,3 +20,9 @@ $ chmod u+x envoie_hdfs.sh
 $ ./envoie_hdfs.sh
 ```
 
+> Count files in HDFS directory
+
+```sh
+$ hdfs dfs -count /tmp/wiki/data
+```
+
