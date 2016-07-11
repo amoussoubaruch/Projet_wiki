@@ -26,3 +26,9 @@ $ ./envoie_hdfs.sh
 $ hdfs dfs -count /tmp/wiki/data
 ```
 
+> Free space in hdfs 
+
+```sh
+$ hdfs dfsadmin -report
+```
+
